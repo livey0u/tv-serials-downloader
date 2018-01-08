@@ -1,0 +1,11 @@
+{
+	"name": "checkout-system",
+	"logLevel": "info",
+	"mongodb": {
+		"url": "mongodb://localhost:27017/checkout-system"
+	},
+	"server": {
+		"host": "127.0.0.1",
+		"port": "3010"
+	}
+}
