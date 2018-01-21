@@ -1,5 +1,8 @@
-# nodejs-mongodb-project-template
-Bootstrap code repeated in many projects made ready for new projects
+# TV Serials downloader
+
+1. Downloads configured tv serials from youtube.
+2. Keep track of downloads & re-downloads incomplete downloads.
+3. Only downloads from previously downloaded time.
 
 ## Setup
 
