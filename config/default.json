@@ -1,11 +1,33 @@
 {
 	"name": "checkout-system",
 	"logLevel": "info",
-	"mongodb": {
-		"url": "mongodb://localhost:27017/checkout-system"
+	"loki": {
+		"dbName": "tv-serials-downloads"
 	},
 	"server": {
 		"host": "127.0.0.1",
 		"port": "3010"
-	}
+	},
+  "serials": [{
+    "name": "Vani Rani",
+    "channelId": "UCxhPXCaIGhyt2HOrJkoVuGA",
+    "namePattern": "வாணி|VAANI"
+  }, {
+    "name": "Priyamanaval",
+    "channelId": "UC-lJ-F5mlPP6SYPkkq6gjwA",
+    "namePattern": "Priyamanaval"
+  }, {
+    "name": "Nandini",
+    "channelId": "UCBnxEdpoZwstJqC1yZpOjRA",
+    "namePattern": "Nandini"
+  }, {
+    "name": "Valli",
+    "channelId": "UCRhn5l_2zvcMQA0RI2f010g",
+    "namePattern": "Valli|வள்ளி"
+  }],
+  "google": {
+    "clientSecretPath": "config/client_secret_156843652551-iarvlj52kqk96edpsubsc6tra552nkk2.apps.googleusercontent.com.json"
+  },
+  "downloadLocation": "/Users/tamilvendhan/serials",
+  "defaultPublishedAfter": 2
 }

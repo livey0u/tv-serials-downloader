@@ -1,1 +1,16 @@
-{}
+{
+  "debug": false,
+  "serials": [{
+    "name": "Priyamanaval",
+    "channelId": "UC-lJ-F5mlPP6SYPkkq6gjwA",
+    "namePattern": "Priyamanaval"
+  }, {
+    "name": "Nandini",
+    "channelId": "UCBnxEdpoZwstJqC1yZpOjRA",
+    "namePattern": "Nandini"
+  }, {
+    "name": "Valli",
+    "channelId": "UCRhn5l_2zvcMQA0RI2f010g",
+    "namePattern": "Valli|வள்ளி"
+  }]
+}

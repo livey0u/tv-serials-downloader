@@ -1,17 +1,22 @@
 {
-  "name": "nodejs-mongodb-project-template",
+  "name": "tv-serials-downloader",
   "version": "1.0.0",
-  "description": "Project title",
+  "description": "A scheduler that downloads predefined serials everyday.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Tamil Vendhan K",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "config": "^1.29.1",
     "fastify": "^0.37.0",
+    "google-auth-library": "^0.12.0",
+    "googleapis": "^24.0.0",
+    "lokijs": "^1.5.1",
+    "moment": "^2.20.1",
     "mongodb": "^3.0.1",
-    "pino": "^4.10.3"
+    "pino": "^4.10.3",
+    "youtube-dl": "^1.12.2"
   }
 }
